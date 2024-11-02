@@ -1,0 +1,65 @@
+/* Hero Section */
+.hero {
+    background: url('https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_640.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+    
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+  }
+  
+  /* Contact Section */
+  .contact {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5ZJVlov_JoiTi4y4Z5WgAdKlgZu1tNRQ9Iw&s') no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+  }
+  
+  .contact form input, .contact form textarea {
+    background: rgba(255, 255, 255, 0.8);
+  }
+  .col-md-3 img {
+    width: 100%;         /* Makes image fill the width of the column */
+    height: 200px;       /* Fixed height for uniform size */
+    object-fit: cover;   /* Crops the image to fit without stretching */
+    
+}
+/* Justify text in <p> tags within the services section */
+.services-background p, .col-md-3 p {
+    text-align: justify;
+}
+
+/* Style buttons with white background and gray text */
+.btn-secondary, .btn-info {
+    background-color: #ffffff;  /* White background */
+    color: #6c757d;             /* Gray text */
+    border: 1px solid #6c757d;  /* Optional: Gray border */
+}
+/* Full-width background styling */
+.services-background {
+    background: url('https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500') no-repeat center center;
+    background-size: cover;
+    width: 100vw;                    /* Full viewport width */
+    margin-left: calc(-50vw + 50%);  /* Center-aligns the background */
+    padding: 40px 0;                 /* Top and bottom padding for the background section */
+}
+
+
+.services-background .container {
+    max-width: 1140px;  
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.nav-item{
+  border: 2px solid gray;
+  margin-right: 10px;
+  
+}
+
